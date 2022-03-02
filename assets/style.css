@@ -1,6 +1,11 @@
+
+
+
+/* image source https://all-free-download.com/free-vector/download/abstract_background_266983.html */
 body {
-    background-color: black;
-    color: white;
+   background-image: url(./Abstract_background.jpg);
+   background-size: cover;
+   
     
 
 }
@@ -10,18 +15,20 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: blue;
-    border: burlywood;
+    
+    
+  
         
    
 }
 
 header h1 a {
     font-weight: bold;
-    font-size: 40px;
+    /* font-size: 40px; */
     margin: 0;
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
+    text-shadow: 0 0 4px red;
     font-family: cursive;
    
 }
@@ -45,7 +52,7 @@ header nav ul li a {
     color: white;
     display: flex;
     margin: 15px;
-    text-shadow: 0 0 4px yellow;
+    text-shadow: 0 0 4px greenyellow;
    
     
 }
@@ -55,8 +62,9 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    text-shadow: 0 0 4px red;
+    text-shadow: 0 0 4px rebeccapurple;
     font-size: 36px;
+    background-color: white;
 }
 .profilepic img {
     width: 320px;
