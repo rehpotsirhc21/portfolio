@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    
+
+}
+
+header {
+   padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: blue;
+    border: burlywood;
+        
+   
+}
+
+header h1 a {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: cursive;
+   
+}
+
+
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: white;
+    display: flex;
+    margin: 15px;
+    text-shadow: 0 0 4px yellow;
+   
+    
+}
+
+h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-shadow: 0 0 4px red;
+    font-size: 36px;
+}
+.profilepic img {
+    width: 320px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+
+
