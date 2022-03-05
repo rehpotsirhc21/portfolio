@@ -11,7 +11,7 @@ body {
    color: white;
     }
 
-
+/* header styles  */
 
 header {
    padding: 10px 10px;
@@ -69,13 +69,10 @@ h2 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 15%;
-    
-   
+    border-radius: 15%;      
 }
 
-
-
+/* section styles  */
 #first-project img {
     display: flex;
     width: auto;
@@ -83,20 +80,16 @@ h2 {
    justify-content: center;
    margin-left: auto;
    margin-right: auto;
-
-
 }
-
 
 
 #first-caption {
     display: flex;
-    font-size: 32px;
+    
     align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 a {
@@ -114,7 +107,6 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
   
-
 }
 
 #contact ul {
