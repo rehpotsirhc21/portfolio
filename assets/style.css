@@ -9,6 +9,7 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    color: white;
+   flex-wrap: wrap;
     }
 
 /* header styles  */
@@ -72,6 +73,11 @@ h2 {
     border-radius: 15%;      
 }
 
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* section styles  */
 #first-project img {
     display: flex;
@@ -83,7 +89,7 @@ h2 {
 }
 
 
-#first-caption {
+.caption {
     display: flex;
     
     align-items: center;
@@ -91,7 +97,14 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
+#second-project img {
+    display: flex;
+    width:25%;
+    align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+}
 a {
     color: blanchedalmond;
 }
@@ -115,6 +128,8 @@ a:hover {
 
 
 /* media queries  */
+
+/* small screens */
 @media screen and (max-width:980px) {
    header h1 {
        justify-content: center;
@@ -131,6 +146,20 @@ header nav ul li a {
 #first-project img {
     max-width: 300px;
 } }
+
+@media screen and (max-width:768px) {
+    #first-project img{
+        max-width: 250px;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+    #first-project img {
+        max-width: 150px;
+    }
+    
+}
 
 
 
