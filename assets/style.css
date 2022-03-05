@@ -3,13 +3,16 @@
 
 /* image source https://all-free-download.com/free-vector/download/abstract_background_266983.html */
 body {
-   background-image: url(./Abstract_background.jpg);
-   background-size: cover;
+  
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: black;
+   color: white;
    
     
 
 }
+
+
 
 header {
    padding: 10px 10px;
@@ -30,9 +33,6 @@ header h1 {
     text-transform: uppercase;
    
 }
-
-
-
 
 header nav ul {
     display: flex;
@@ -62,7 +62,7 @@ h2 {
     justify-content: center;
     text-shadow: 0 0 4px rebeccapurple;
     font-size: 36px;
-    background-color: white; }
+    }
     
 .profilepic img {
     width: 320px;
@@ -73,5 +73,7 @@ h2 {
     
    
 }
+
+
 
 
