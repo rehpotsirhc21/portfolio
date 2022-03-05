@@ -145,11 +145,18 @@ header nav ul li a {
 
 #first-project img {
     max-width: 300px;
-} }
+} 
+
+#second-project img {
+    max-width: 250px;
+}}
 
 @media screen and (max-width:768px) {
     #first-project img{
         max-width: 250px;
+    }
+    #second-project img {
+        max-width: 200px;
     }
     
 }
@@ -157,6 +164,10 @@ header nav ul li a {
 @media screen and (max-width:575px) {
     #first-project img {
         max-width: 150px;
+    }
+
+    #second-project img {
+        max-width: 100px;
     }
     
 }
