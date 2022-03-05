@@ -1,16 +1,15 @@
 
 
 
-/* image source https://all-free-download.com/free-vector/download/abstract_background_266983.html */
+
 body {
   
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   background-color: black;
+   background-image: url(./1014.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
    color: white;
-   
-    
-
-}
+    }
 
 
 
@@ -62,6 +61,7 @@ h2 {
     justify-content: center;
     text-shadow: 0 0 4px rebeccapurple;
     font-size: 36px;
+    text-decoration: underline;
     }
     
 .profilepic img {
@@ -76,4 +76,47 @@ h2 {
 
 
 
+#first-project img {
+    display: flex;
+    width: auto;
+    align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
 
+
+}
+
+
+
+#first-caption {
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+a {
+    color: blanchedalmond;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+#contact ul li a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+}
+
+#contact ul {
+    list-style-type: none;
+}
