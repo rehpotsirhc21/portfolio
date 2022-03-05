@@ -143,6 +143,10 @@ header nav ul li a {
     
 }
 
+h2 {
+    font-size: 20px;
+}
+
 #first-project img {
     max-width: 300px;
 } 
