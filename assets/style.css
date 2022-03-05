@@ -116,33 +116,21 @@ a:hover {
 
 /* media queries  */
 @media screen and (max-width:980px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
-    header h1{
-        width: 100%;
-        text-align: center;
-    }
+   header h1 {
+       justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
+   } 
+header nav ul li a {
+    font-size: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
 
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        text-align: center;
-    }
-    header nav ul li a {
-        font-size: 20px;
-    }
-    footer h2, footer div {
-        text-align: center;
-        width: 100%;
-
-    }
-
-  
-    }
-
+#first-project img {
+    max-width: 300px;
+} }
 
 
 
