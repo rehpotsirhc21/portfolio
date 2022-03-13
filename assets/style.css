@@ -1,191 +1,207 @@
-
-
+* {
+    box-sizing: border-box;
+}
 
 body {
-  
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   background-image: url(./1014.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   flex-wrap: wrap;
-    }
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  flex-wrap: wrap;
+}
 
 /* header styles  */
 
 header {
-   padding: 10px 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: rgba(82, 50, 168, .75);
-    align-items: center;
-        
-   
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(82, 50, 168, 0.75);
+  align-items: center;
 }
 
 header h1 {
-    margin: 0;
-    color: white;
-    text-decoration: none;
-    text-shadow: 0 0 4px greenyellow;
-    text-transform: uppercase;
-   
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 4px greenyellow;
+  text-transform: uppercase;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    color: white;
-    display: flex;
-    margin: 15px;
-    text-shadow: 0 0 4px greenyellow;
-   
-    
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  color: white;
+  display: flex;
+  margin: 15px;
+  text-shadow: 0 0 4px greenyellow;
 }
 
-h2 {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    text-shadow: 0 0 4px rebeccapurple;
-    font-size: 36px;
-    text-decoration: underline;
-    }
-    
+/* h2 {
+     display: flex;
+     border-right: solid black 2px;
+     justify-content: center;
+     text-shadow: 0 0 4px rebeccapurple;
+     font-size: 36px;
+     
+     } */
+
+.banner {
+  display: flex;
+  background-image: url(./1014.jpg);
+  height: 10em;
+  width: 100%;
+  text-decoration: underline;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+}
+
+.grid-1 {
+    margin: auto;
+    margin-left: 1em;
+}
 .profilepic img {
-    width: 320px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15%;      
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+   
+  border-radius: 15%;
 }
 
-p {
+.section-title {
     display: flex;
-    flex-wrap: wrap;
+    border-right: solid white 2px;
+    margin-top: 20px;
+    height: 400px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+   
+    text-shadow: 0 0 4px rebeccapurple;
+     }
+
+
+/* }
+p {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* section styles  */
-#first-project img {
-    display: flex;
-    width: auto;
-    align-items: center;
-   justify-content: center;
-   margin-left: auto;
-   margin-right: auto;
+/* #first-project img {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 .caption {
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #second-project img {
-    display: flex;
-    width:25%;
-    align-items: center;
-   justify-content: center;
-   margin-left: auto;
-   margin-right: auto;
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 a {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 a:hover {
-    color: darkmagenta;
-    
+  color: darkmagenta;
 }
 
 #contact ul li a {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-   
-  
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #contact ul {
-    list-style: none;
-    
+  list-style: none;
 }
 
 footer {
-    font-size: small;
+  font-size: small;
 }
-
-
 
 /* media queries  */
 
 /* small screens */
-@media screen and (max-width:980px) {
-   header h1 {
-       justify-content: center;
-       margin-left: auto;
-       margin-right: auto;
-   } 
-header nav ul li a {
+/* @media screen and (max-width: 980px) {
+  header h1 {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header nav ul li a {
     font-size: 25px;
     align-items: center;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    
-}.profilepic img {
+  } */
+  /* .profilepic img {
     width: 50vw;
-}
-h2 {
+  }
+  h2 {
     font-size: 20px;
-}
+  }
 
-#first-project img {
+  #first-project img {
     max-width: 300px;
-} 
+  } */
 
-#second-project img {
+  /* #second-project img {
     max-width: 250px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  #first-project img {
+    max-width: 250px;
+  }
+  #second-project img {
+    max-width: 200px;
+  }
 }
 
-@media screen and (max-width:768px) {
-    #first-project img{
-        max-width: 250px;
-    }
-    #second-project img {
-        max-width: 200px;
-    }
-    
-}
+@media screen and (max-width: 575px) {
+  #first-project img {
+    max-width: 150px;
+  }
 
-@media screen and (max-width:575px) {
-    #first-project img {
-        max-width: 150px;
-    }
-
-    #second-project img {
-        max-width: 100px;
-    }
-    
-}
-
-
+  #second-project img {
+    max-width: 100px;
+  } */
 
