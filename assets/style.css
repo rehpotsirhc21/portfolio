@@ -49,14 +49,7 @@ header nav ul li a {
   text-shadow: 0 0 4px greenyellow;
 }
 
-/* h2 {
-     display: flex;
-     border-right: solid black 2px;
-     justify-content: center;
-     text-shadow: 0 0 4px rebeccapurple;
-     font-size: 36px;
-     
-     } */
+
 
 .banner {
   display: flex;
@@ -71,6 +64,7 @@ header nav ul li a {
 .grid {
     display: grid;
     grid-template-columns: .5fr 1fr;
+    margin-top: 2em;
 }
 
 .grid-1 {
@@ -100,65 +94,41 @@ header nav ul li a {
      }
 
 
-/* }
+
 p {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 1em;
 }
 
-/* section styles  */
-/* #first-project img {
-  display: flex;
-  width: auto;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.caption {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-#second-project img {
-  display: flex;
-  width: 25%;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-a {
-  color: blanchedalmond;
-}
-
-a:hover {
-  color: darkmagenta;
-}
-
-#contact ul li a {
-  display: flex;
-  justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#contact ul {
-  list-style: none;
+.contact ul li {
+    display: inline;
 }
 
 footer {
   font-size: small;
 }
 
-/* media queries  */
+.contact ul li a {
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 75px;
+    text-align: justify;
+}
+.contact-me {
+    display: flex;
+    border-right: solid white 2px;
+    margin-top: 20px;
+    height: 100px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+   
+    text-shadow: 0 0 4px rebeccapurple;
+     }
 
 /* small screens */
-/* @media screen and (max-width: 980px) {
+ @media screen and (max-width: 980px) {
   header h1 {
     justify-content: center;
     margin-left: auto;
@@ -170,38 +140,19 @@ footer {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-  } */
-  /* .profilepic img {
+  }
+  .profilepic img {
     width: 50vw;
-  }
-  h2 {
-    font-size: 20px;
-  }
+  } }
+  
 
-  #first-project img {
-    max-width: 300px;
-  } */
 
-  /* #second-project img {
-    max-width: 250px;
-  }
-}
+  
 
-@media screen and (max-width: 768px) {
-  #first-project img {
-    max-width: 250px;
-  }
-  #second-project img {
-    max-width: 200px;
-  }
-}
+
+/* @media screen and (max-width: 768px) { }
+  
 
 @media screen and (max-width: 575px) {
-  #first-project img {
-    max-width: 150px;
-  }
 
-  #second-project img {
-    max-width: 100px;
-  } */
-
+}  */
