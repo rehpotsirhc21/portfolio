@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -9,7 +9,7 @@ background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 /* header styles  */
@@ -126,7 +126,27 @@ footer {
    
     text-shadow: 0 0 4px rebeccapurple;
      }
+     
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 
+
+  .work img {
+    width: 320px;
+    /* display: flex; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+     
+   
+  }
 /* small screens */
  @media screen and (max-width: 980px) {
   header h1 {
