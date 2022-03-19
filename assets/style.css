@@ -130,7 +130,9 @@ footer {
     font-size: small;
 }
 
-
+.prjImg img:hover {
+  opacity: 25%;
+}
 
 /* media queries  */
 
@@ -163,6 +165,13 @@ h2 {
     max-width: 250px;
 }
 
+
+}
+
+.contact-links a {
+  justify-content: center;
+  display: flex;
+  
 }
 
 @media screen and (max-width:768px) {
