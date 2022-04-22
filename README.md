@@ -23,4 +23,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 <a href='https://www.freepik.com/vectors/background'>Background vector created by vector_corp - www.freepik.com</a>
 
+repo location: https://github.com/rehpotsirhc21/portfolio
+
+deployed link: https://rehpotsirhc21.github.io/portfolio/
+
 ![full site screen print](./assets/fullsite.png)
